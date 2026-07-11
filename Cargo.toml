@@ -5,6 +5,7 @@ edition = "2024"
 description = """A word frequency counter CLI tool similar to python counted dicts"""
 
 [dependencies]
+anyhow = "1.0.103"
 clap = { version = "4.6.1", features = ["derive"] }
 
 [lints.clippy]
